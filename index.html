@@ -3,147 +3,140 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Pavitra's Handmade 🌸</title>
 
 <style>
-* {
-  box-sizing: border-box;
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#fff7fb;
+  color:#4a3040;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #fff7fb;
-  color: #444;
+header{
+  background:linear-gradient(135deg,#ff9fca,#e9c6ff);
+  color:white;
+  text-align:center;
+  padding:45px 15px;
 }
 
-header {
-  background: linear-gradient(135deg, #ff9fc9, #f7b6d2);
-  color: white;
-  text-align: center;
-  padding: 35px 15px;
+header h1{
+  margin:0;
+  font-size:38px;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 36px;
+header p{
+  font-size:18px;
 }
 
-header p {
-  font-size: 17px;
+nav{
+  background:white;
+  padding:15px;
+  text-align:center;
+  position:sticky;
+  top:0;
+  box-shadow:0 2px 10px #ddd;
+  z-index:10;
 }
 
-nav {
-  background: white;
-  text-align: center;
-  padding: 15px;
-  box-shadow: 0 2px 10px #ddd;
-  position: sticky;
-  top: 0;
+nav a{
+  color:#c44778;
+  text-decoration:none;
+  font-weight:bold;
+  margin:0 10px;
 }
 
-nav a {
-  text-decoration: none;
-  color: #d04b86;
-  font-weight: bold;
-  margin: 0 12px;
+.hero{
+  text-align:center;
+  padding:50px 20px;
 }
 
-.hero {
-  text-align: center;
-  padding: 45px 20px;
+.hero h2{
+  color:#c44778;
+  font-size:30px;
 }
 
-.hero h2 {
-  color: #d04b86;
-  font-size: 30px;
+.hero p{
+  font-size:17px;
+  line-height:1.6;
 }
 
-.hero p {
-  font-size: 17px;
-  line-height: 1.6;
+.button{
+  display:inline-block;
+  background:#df5b92;
+  color:white;
+  padding:13px 25px;
+  border-radius:25px;
+  text-decoration:none;
+  font-weight:bold;
+  margin-top:10px;
 }
 
-.button {
-  display: inline-block;
-  background: #e95b96;
-  color: white;
-  padding: 13px 25px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-top: 10px;
+section{
+  max-width:1050px;
+  margin:auto;
+  padding:40px 20px;
 }
 
-section {
-  padding: 35px 20px;
-  max-width: 1000px;
-  margin: auto;
+section>h2{
+  text-align:center;
+  color:#c44778;
+  margin-bottom:30px;
 }
 
-section h2 {
-  text-align: center;
-  color: #d04b86;
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:22px;
 }
 
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+.card{
+  background:white;
+  padding:25px;
+  border-radius:22px;
+  text-align:center;
+  box-shadow:0 5px 18px #ead5df;
 }
 
-.card {
-  background: white;
-  padding: 25px;
-  border-radius: 20px;
-  text-align: center;
-  box-shadow: 0 5px 15px #ead5df;
+.emoji{
+  font-size:60px;
 }
 
-.card .emoji {
-  font-size: 55px;
+.card h3{
+  color:#c44778;
 }
 
-.card h3 {
-  color: #d04b86;
+.price{
+  color:#c23d73;
+  font-size:20px;
+  font-weight:bold;
 }
 
-.price {
-  font-size: 20px;
-  font-weight: bold;
-  color: #c43d76;
+.about{
+  background:white;
+  padding:28px;
+  border-radius:22px;
+  line-height:1.7;
+  box-shadow:0 5px 18px #ead5df;
 }
 
-.about {
-  background: white;
-  border-radius: 20px;
-  padding: 25px;
-  line-height: 1.7;
-  box-shadow: 0 5px 15px #ead5df;
+.contact{
+  text-align:center;
 }
 
-.contact {
-  text-align: center;
+footer{
+  background:#c44778;
+  color:white;
+  text-align:center;
+  padding:25px;
+  margin-top:30px;
 }
 
-footer {
-  background: #d04b86;
-  color: white;
-  text-align: center;
-  padding: 25px;
-  margin-top: 30px;
-}
-
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 29px;
-  }
-
-  nav a {
-    margin: 0 5px;
-    font-size: 14px;
-  }
+@media(max-width:600px){
+  header h1{font-size:29px}
+  nav a{font-size:14px;margin:0 5px}
 }
 </style>
 </head>
@@ -152,24 +145,22 @@ footer {
 
 <header>
   <h1>🌸 Pavitra's Handmade 🌸</h1>
-  <p>Made with creativity, created with love! 💕✨</p>
+  <p>Made with creativity, created with love! 💕</p>
 </header>
 
 <nav>
   <a href="#home">Home</a>
-  <a href="#products">Products</a>
+  <a href="#products">Shop</a>
   <a href="#about">About</a>
   <a href="#contact">Contact</a>
 </nav>
 
 <div class="hero" id="home">
   <h2>Welcome to Pavitra's Handmade 💗</h2>
-
   <p>
-    Discover beautiful handmade creations made with creativity,
-    care and lots of love.
+    Discover cute, creative and unique handmade creations
+    made with care and love.
   </p>
-
   <a class="button" href="#products">Shop Now ✨</a>
 </div>
 
@@ -180,88 +171,91 @@ footer {
 
     <div class="card">
       <div class="emoji">📿</div>
-      <h3>Handmade Bracelets</h3>
-      <p>Beautiful creative bracelets made with love.</p>
-      <div class="price">₹49+</div>
+      <h3>Handmade Bracelet</h3>
+      <p>Beautiful handmade bracelets.</p>
+      <p class="price">₹49+</p>
+      <a class="button" href="#contact">Order</a>
     </div>
 
     <div class="card">
-      <div class="emoji">📖</div>
-      <h3>Bookmarks</h3>
-      <p>Pretty handmade bookmarks for book lovers.</p>
-      <div class="price">₹20+</div>
+      <div class="emoji">🔖</div>
+      <h3>Cute Bookmark</h3>
+      <p>Pretty bookmarks for book lovers.</p>
+      <p class="price">₹20+</p>
+      <a class="button" href="#contact">Order</a>
     </div>
 
     <div class="card">
       <div class="emoji">📔</div>
-      <h3>Creative Diaries</h3>
-      <p>Lovely handmade diaries for your special ideas.</p>
-      <div class="price">₹99+</div>
+      <h3>Handmade Diary</h3>
+      <p>Creative diaries for your special ideas.</p>
+      <p class="price">₹99+</p>
+      <a class="button" href="#contact">Order</a>
     </div>
 
     <div class="card">
       <div class="emoji">💌</div>
-      <h3>Greeting Cards</h3>
-      <p>Personalized cards for birthdays and special days.</p>
-      <div class="price">₹30+</div>
+      <h3>Greeting Card</h3>
+      <p>Special cards for special people.</p>
+      <p class="price">₹30+</p>
+      <a class="button" href="#contact">Order</a>
     </div>
 
     <div class="card">
       <div class="emoji">🎁</div>
-      <h3>Gift Boxes</h3>
-      <p>Beautiful custom gift boxes for your loved ones.</p>
-      <div class="price">₹149+</div>
+      <h3>Gift Box</h3>
+      <p>Beautiful handmade gift boxes.</p>
+      <p class="price">₹149+</p>
+      <a class="button" href="#contact">Order</a>
     </div>
 
     <div class="card">
       <div class="emoji">🎨</div>
-      <h3>Custom Creations</h3>
-      <p>Tell us your idea and we can create something special.</p>
-      <div class="price">Custom</div>
+      <h3>Custom Art</h3>
+      <p>Creative artwork made specially for you.</p>
+      <p class="price">Custom</p>
+      <a class="button" href="#contact">Order</a>
     </div>
 
   </div>
 </section>
 
 <section id="about">
-  <h2>💗 About Us</h2>
+  <h2>💗 About Pavitra's Handmade</h2>
 
   <div class="about">
     <p>
-      Welcome to Pavitra's Handmade! 🌸
+      Welcome to Pavitra's Handmade! 🌷
     </p>
 
     <p>
-      We create handmade bracelets, bookmarks, diaries,
-      greeting cards, gift boxes, artwork and custom creations.
+      We create bracelets, bookmarks, diaries, greeting cards,
+      gift boxes, artwork and other creative handmade products.
     </p>
 
     <p>
-      Every creation is made with creativity, care and love. 💕✨
+      Every creation is made with creativity, patience and love. ✨
     </p>
   </div>
 </section>
 
 <section id="contact">
-  <h2>📩 Contact Us</h2>
+  <h2>📩 Place an Order</h2>
 
   <div class="contact">
-    <p>Want to order something special?</p>
+    <p>Want something handmade and special? 💕</p>
+    <p>Contact us to ask about products and orders.</p>
 
-    <a class="button"
-       href="mailto:YOUR-EMAIL@example.com">
-       Contact Us 💌
+    <a class="button" href="mailto:YOUR-EMAIL@example.com">
+      Contact Us 💌
     </a>
-
-    <p>
-      Replace the email address in the code with your own email.
-    </p>
   </div>
 </section>
 
 <footer>
   <p>🌸 Pavitra's Handmade 🌸</p>
   <p>Made with creativity, created with love! 💕</p>
+  <p>© 2026 Pavitra's Handmade</p>
 </footer>
 
 </body>
