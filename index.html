@@ -1,1 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Pavitra's Handmade 🌸</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff7fb;
+  color: #444;
+}
+
+header {
+  background: linear-gradient(135deg, #ff9fc9, #f7b6d2);
+  color: white;
+  text-align: center;
+  padding: 35px 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  font-size: 17px;
+}
+
+nav {
+  background: white;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 2px 10px #ddd;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d04b86;
+  font-weight: bold;
+  margin: 0 12px;
+}
+
+.hero {
+  text-align: center;
+  padding: 45px 20px;
+}
+
+.hero h2 {
+  color: #d04b86;
+  font-size: 30px;
+}
+
+.hero p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-block;
+  background: #e95b96;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+section {
+  padding: 35px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  color: #d04b86;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px #ead5df;
+}
+
+.card .emoji {
+  font-size: 55px;
+}
+
+.card h3 {
+  color: #d04b86;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #c43d76;
+}
+
+.about {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  line-height: 1.7;
+  box-shadow: 0 5px 15px #ead5df;
+}
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  background: #d04b86;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 29px;
+  }
+
+  nav a {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🌸 Pavitra's Handmade 🌸</h1>
+  <p>Made with creativity, created with love! 💕✨</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+  <h2>Welcome to Pavitra's Handmade 💗</h2>
+
+  <p>
+    Discover beautiful handmade creations made with creativity,
+    care and lots of love.
+  </p>
+
+  <a class="button" href="#products">Shop Now ✨</a>
+</div>
+
+<section id="products">
+  <h2>✨ Our Handmade Collection ✨</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <div class="emoji">📿</div>
+      <h3>Handmade Bracelets</h3>
+      <p>Beautiful creative bracelets made with love.</p>
+      <div class="price">₹49+</div>
+    </div>
+
+    <div class="card">
+      <div class="emoji">📖</div>
+      <h3>Bookmarks</h3>
+      <p>Pretty handmade bookmarks for book lovers.</p>
+      <div class="price">₹20+</div>
+    </div>
+
+    <div class="card">
+      <div class="emoji">📔</div>
+      <h3>Creative Diaries</h3>
+      <p>Lovely handmade diaries for your special ideas.</p>
+      <div class="price">₹99+</div>
+    </div>
+
+    <div class="card">
+      <div class="emoji">💌</div>
+      <h3>Greeting Cards</h3>
+      <p>Personalized cards for birthdays and special days.</p>
+      <div class="price">₹30+</div>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🎁</div>
+      <h3>Gift Boxes</h3>
+      <p>Beautiful custom gift boxes for your loved ones.</p>
+      <div class="price">₹149+</div>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🎨</div>
+      <h3>Custom Creations</h3>
+      <p>Tell us your idea and we can create something special.</p>
+      <div class="price">Custom</div>
+    </div>
+
+  </div>
+</section>
+
+<section id="about">
+  <h2>💗 About Us</h2>
+
+  <div class="about">
+    <p>
+      Welcome to Pavitra's Handmade! 🌸
+    </p>
+
+    <p>
+      We create handmade bracelets, bookmarks, diaries,
+      greeting cards, gift boxes, artwork and custom creations.
+    </p>
+
+    <p>
+      Every creation is made with creativity, care and love. 💕✨
+    </p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>📩 Contact Us</h2>
+
+  <div class="contact">
+    <p>Want to order something special?</p>
+
+    <a class="button"
+       href="mailto:YOUR-EMAIL@example.com">
+       Contact Us 💌
+    </a>
+
+    <p>
+      Replace the email address in the code with your own email.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>🌸 Pavitra's Handmade 🌸</p>
+  <p>Made with creativity, created with love! 💕</p>
+</footer>
+
+</body>
+</html>
